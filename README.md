@@ -1,1 +1,3 @@
 # Proyecto
+
+## Información adicional
