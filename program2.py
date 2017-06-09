@@ -22,6 +22,5 @@ def ejercicio2():
 				return "La password no puede contener espacios"
 			    else:
 				return "Password valida"
-
     else:
 	return "La password debe contener mas de 8 caracteres"
