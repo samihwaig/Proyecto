@@ -14,3 +14,6 @@ def ejercicio(intento=1):
     else:
 	return "El nombre de usuario debe contener al menos 6 caracteres"
 
+
+
+
