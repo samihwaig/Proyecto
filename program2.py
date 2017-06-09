@@ -2,7 +2,7 @@
 def ejercicio2():
     contrasena = raw_input("password: ")
     numero = len(contrasena)
-    if numero > 8:
+    if numero >= 8:
 	if contrasena.isalpha():
 	    return "La password debe contener numeros y caracteres no alfanumericos"
 	else:
