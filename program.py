@@ -3,8 +3,8 @@
 def ejercicio(intento=1):
     usuario = raw_input("Nombre de usuario: ")
     numero = len(usuario)
-    if numero > 6:
-        if numero < 12:
+    if numero >= 6:
+        if numero <= 12:
             if usuario.isalnum():
                 return "Nombre de usuario valido"
             else:
